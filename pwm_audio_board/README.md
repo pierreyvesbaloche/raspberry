@@ -30,3 +30,7 @@ The instructions below were successfully tested with the lates "Buster" revision
     1. Then enter the following at the end of the `/boot/config.txt`
         - `dtoverlay=disable-bt`
 
+## Test
+
+You can now test, from a terminal, that the full setup is working with the following command :
+- `speaker-test -c 2 -t wav -l 2`
